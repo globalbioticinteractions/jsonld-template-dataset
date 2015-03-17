@@ -49,15 +49,15 @@
          "@type" : "@id"
       },
 
-      "studies" : "foaf:isAbout",
+      "studies" : "is_about",
       "nodes" : "foaf:isAbout",
 
       "links" : {
-         "@id" : "foaf:isAbout",
+         "@id" : "is_about",
          "@type" : "rdf:Statement"
       },
       "datasets" : {
-         "@id" : "foaf:isAbout",
+         "@id" : "is_about",
          "@type" : "void:Dataset"
       },     
 
