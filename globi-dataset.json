@@ -1,11 +1,11 @@
 {
+ "@context": "https://raw.githubusercontent.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
  "id": "http://github.com/...",
  "type": "dataset",
- "identifier": "",
  "createdDate": "2015-03-16",
  "author": {
-  "id": "ORCID:nnn",
-  "label": "cjm"
+  "id": "http://orcid.org/0000-0002-6601-2165",
+  "label": "Chris Mungall"
  },
  "studies": [
   {
@@ -19,7 +19,7 @@
    "id": "http://arctos.database.museum/guid/CUMV:Bird:25225",
    "type": "specimen",
    "taxon": {
-    "id": "",
+    "id": "NCBITaxon:56350",
     "label": "Falco sparverius"
    },
    "date": "1955-07-18",

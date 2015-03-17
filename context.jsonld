@@ -1,0 +1,56 @@
+{
+   "@context" : {
+      "@base" : "http://globalbioticinteractions.org/",
+      "id" : "@id",
+
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "void" : "http://rdfs.org/ns/void#",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+      "dcat" : "http://www.w3.org/ns/dcat#",
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "prov" : "http://www.w3.org/ns/prov#",
+      "dcterms" : "http://purl.org/dc/terms/",
+      "oa" : "http://www.w3.org/ns/oa#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "foaf" : "http://xmlns.com/foaf/0.1/",
+      "dc" : "http://purl.org/dc/terms/",
+
+      "RO" : "http://purl.obolibrary.org/obo/RO_",
+      "obo" : "http://purl.obolibrary.org/obo/",
+      "ENVO" : "http://purl.obolibrary.org/obo/ENVO_",
+      "UBERON" : "http://purl.obolibrary.org/obo/UBERON_",
+      "PMID" : "http://www.ncbi.nlm.nih.gov/pubmed/",
+      "NCBITaxon" : "http://purl.obolibrary.org/obo/NCBITaxon_",
+
+      "creator" : {
+         "@id" : "dc:creator",
+         "@type" : "@id"
+      },
+      "depiction" : {
+         "@id" : "foaf:depiction",
+         "@type" : "@id"
+      },
+      "type" : {
+         "@id" : "rdf:type",
+         "@type" : "@id"
+      },
+      "created" : {
+         "@id" : "dc:created",
+         "@type" : "xsd:dateTime"
+      },
+      "homepage" : {
+         "@id" : "foaf:homepage",
+         "@type" : "@id"
+      },
+
+      "label" : "rdfs:label",
+      "email" : "foaf:mbox",
+      "title" : "dc:title",
+      "Class" : "owl:Class",
+      "publisher" : "dc:publisher",
+      "description" : "dc:description",
+      "subClassOf" : "owl:subClassOf",
+      "source" : "dc:source",
+      "keyword" : "dcat:keyword"
+   }
+}
