@@ -22,16 +22,18 @@
       "PMID" : "http://www.ncbi.nlm.nih.gov/pubmed/",
       "NCBITaxon" : "http://purl.obolibrary.org/obo/NCBITaxon_",
 
+      "preys_on" : "RO:0002439",
+
+      "type" : {
+         "@id" : "rdf:type",
+         "@type" : "@id"
+      },
       "creator" : {
          "@id" : "dc:creator",
          "@type" : "@id"
       },
       "depiction" : {
          "@id" : "foaf:depiction",
-         "@type" : "@id"
-      },
-      "type" : {
-         "@id" : "rdf:type",
          "@type" : "@id"
       },
       "created" : {
@@ -43,9 +45,15 @@
          "@type" : "@id"
       },
 
+      "studies" : "foaf:isAbout",
+      "nodes" : "foaf:isAbout",
+      "links" : "foaf:isAbout",
+      "taxon" : "RO:0002162",
+
       "label" : "rdfs:label",
       "email" : "foaf:mbox",
       "title" : "dc:title",
+      "author" : "dc:author",
       "Class" : "owl:Class",
       "publisher" : "dc:publisher",
       "description" : "dc:description",
