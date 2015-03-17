@@ -16,6 +16,9 @@
       "dc" : "http://purl.org/dc/terms/",
 
       "RO" : "http://purl.obolibrary.org/obo/RO_",
+      "BCO" : "http://purl.obolibrary.org/obo/BCO_",
+      "OBI" : "http://purl.obolibrary.org/obo/OBI_",
+      "IAO" : "http://purl.obolibrary.org/obo/IAO_",
       "obo" : "http://purl.obolibrary.org/obo/",
       "ENVO" : "http://purl.obolibrary.org/obo/ENVO_",
       "UBERON" : "http://purl.obolibrary.org/obo/UBERON_",
@@ -23,6 +26,7 @@
       "NCBITaxon" : "http://purl.obolibrary.org/obo/NCBITaxon_",
 
       "preys_on" : "RO:0002439",
+       "is_about" : "IAO:0000136",
 
       "type" : {
          "@id" : "rdf:type",
@@ -51,6 +55,10 @@
       "links" : {
          "@id" : "foaf:isAbout",
          "@type" : "rdf:Statement"
+      },
+      "datasets" : {
+         "@id" : "foaf:isAbout",
+         "@type" : "void:Dataset"
       },     
 
       "taxon" : "RO:0002162",

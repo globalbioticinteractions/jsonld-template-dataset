@@ -1,70 +1,72 @@
 {
  "@context": "https://raw.githubusercontent.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
- "id": "http://github.com/...",
- "type": "dataset",
- "createdDate": "2015-03-16",
- "author": {
-  "id": "http://orcid.org/0000-0002-6601-2165",
-  "label": "Chris Mungall"
- },
- "studies": [
-  {
-   "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-study",
-   "label": "Falco sparverius James River, 3 miles Northeast Huron ",
-   "type": "collection_specimen_study"
-  }
- ],
- "nodes": [
-  {
-   "id": "http://arctos.database.museum/guid/CUMV:Bird:25225",
-   "type": "specimen",
-   "taxon": {
-    "id": "NCBITaxon:56350",
-    "label": "Falco sparverius"
-   },
-   "date": "1955-07-18",
-   "location": {
-    "latitude": "44.378414",
-    "longitude": "-98.178441",
-    "elevation": {
-     "value": "1300",
-     "units": "foot"
-    }
-   },
-   "source": "http://arctos.database.museum/guid/CUMV:Bird:25225-study"
-  },
-  {
-   "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-1",
-   "label": "stomach contents part 1",
-   "taxon": {
-    "id": "NCBITaxon:50557",
-    "label": "insects"
-   }
-  },
-  {
-   "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-2",
-   "type": "specimen",
-   "label": "stomach contents part 2, fledglings",
-   "taxon": {
-    "id": "NCBITaxon:8782",
-    "label": "birds"
-   },
-   "stage": {
-    "id": "UBERON:0034919",
-    "label": "juvenile stage"
-   }
-  }
- ],
- "links": [
-  {
-   "subject": "http://arctos.database.museum/guid/CUMV:Bird:25225",
-   "relation": "RO:0002470",
-   "target": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-1"
-  },
-  {
-   "subject": "http://arctos.database.museum/guid/CUMV:Bird:25225",
-   "relation": "RO:0002470",
-   "target": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-2"
-  }
- ]
-}
+ "datasets" : {
+     "id": "http://github.com/...",
+     "type": "dataset",
+     "createdDate": "2015-03-16",
+     "author": {
+         "id": "http://orcid.org/0000-0002-6601-2165",
+         "label": "Chris Mungall"
+     },   
+
+     "studies": [
+         {
+             "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-study",
+             "label": "Falco sparverius James River, 3 miles Northeast Huron ",
+             "type": "collection_specimen_study"
+         }
+     ],
+     "nodes": [
+         {
+             "id": "http://arctos.database.museum/guid/CUMV:Bird:25225",
+             "type": "specimen",
+             "taxon": {
+                 "id": "NCBITaxon:56350",
+                 "label": "Falco sparverius"
+             },
+             "date": "1955-07-18",
+             "location": {
+                 "latitude": "44.378414",
+                 "longitude": "-98.178441",
+                 "elevation": {
+                     "value": "1300",
+                     "units": "foot"
+                 }
+             },
+             "source": "http://arctos.database.museum/guid/CUMV:Bird:25225-study"
+         },
+         {
+             "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-1",
+             "label": "stomach contents part 1",
+             "taxon": {
+                 "id": "NCBITaxon:50557",
+                 "label": "insects"
+             }
+         },
+         {
+             "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-2",
+             "type": "specimen",
+             "label": "stomach contents part 2, fledglings",
+             "taxon": {
+                 "id": "NCBITaxon:8782",
+                 "label": "birds"
+             },
+             "stage": {
+                 "id": "UBERON:0034919",
+                 "label": "juvenile stage"
+             }
+         }
+     ],
+     "links": [
+         {
+             "subject": "http://arctos.database.museum/guid/CUMV:Bird:25225",
+             "relation": "RO:0002470",
+             "target": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-1"
+         },
+         {
+             "subject": "http://arctos.database.museum/guid/CUMV:Bird:25225",
+             "relation": "RO:0002470",
+             "target": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-2"
+         }
+     ]
+ }
