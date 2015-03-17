@@ -14,6 +14,7 @@
       "xsd" : "http://www.w3.org/2001/XMLSchema#",
       "foaf" : "http://xmlns.com/foaf/0.1/",
       "dc" : "http://purl.org/dc/terms/",
+      "eol" : "http://eol.org/pages/",
 
       "RO" : "http://purl.obolibrary.org/obo/RO_",
       "BCO" : "http://purl.obolibrary.org/obo/BCO_",
@@ -27,6 +28,7 @@
 
       "preys_on" : "RO:0002439",
        "is_about" : "IAO:0000136",
+       "specimen" : OBI:0100051",
 
       "type" : {
          "@id" : "rdf:type",
