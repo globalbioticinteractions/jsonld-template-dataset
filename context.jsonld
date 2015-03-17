@@ -47,8 +47,17 @@
 
       "studies" : "foaf:isAbout",
       "nodes" : "foaf:isAbout",
-      "links" : "foaf:isAbout",
+
+      "links" : {
+         "@id" : "foaf:isAbout",
+         "@type" : "rdf:Statement"
+      },     
+
       "taxon" : "RO:0002162",
+
+      "subject" : "rdf:subject",
+      "target" : "rdf:target",
+      "relation" : "rdf:predicate",
 
       "label" : "rdfs:label",
       "email" : "foaf:mbox",
