@@ -28,7 +28,7 @@
 
       "preys_on" : "RO:0002439",
        "is_about" : "IAO:0000136",
-       "specimen" : OBI:0100051",
+       "specimen" : "OBI:0100051",
 
       "type" : {
          "@id" : "rdf:type",
