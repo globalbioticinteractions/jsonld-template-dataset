@@ -1,7 +1,7 @@
 {
  "@context": "https://rawgit.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
  "datasets" : {
-     "id": "http://github.com/...",
+     "id": "https://github.com/globalbioticinteractions/jsonld-template-dataset",
      "type": "dataset",
      "createdDate": "2015-03-16",
      "author": {
