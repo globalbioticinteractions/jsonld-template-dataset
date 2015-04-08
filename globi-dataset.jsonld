@@ -1,5 +1,5 @@
 {
- "@context": "https://raw.githubusercontent.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
+ "@context": "https://rawgit.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
  "datasets" : {
      "id": "http://github.com/...",
      "type": "dataset",
