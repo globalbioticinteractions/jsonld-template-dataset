@@ -84,5 +84,19 @@
       "subClassOf" : "owl:subClassOf",
       "source" : "dc:source",
       "keyword" : "dcat:keyword"
+
+      "location": "http://schema.org/geo",
+      "latitude": {
+        "@id": "http://schema.org/latitude",
+        "@type": "xsd:float"
+      },
+      "longitude": {
+        "@id": "http://schema.org/longitude",
+        "@type": "xsd:float"
+      },
+      "elevation": {
+        "@id": "http://schema.org/elevation",
+        "@type": "xsd:float"
+      }
    }
 }

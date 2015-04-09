@@ -3,19 +3,12 @@
  "datasets" : {
      "id": "https://rawgit.com/globalbioticinteractions/jsonld-template-dataset/globi-dataset.jsonld",
      "type": "dataset",
-     "createdDate": "2015-03-16",
+     "created": "2015-03-16",
      "author": {
          "id": "http://orcid.org/0000-0002-6601-2165",
          "label": "Chris Mungall"
      },   
 
-     "studies": [
-         {
-             "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-study",
-             "label": "Falco sparverius James River, 3 miles Northeast Huron ",
-             "type": "collection_specimen_study"
-         }
-     ],
      "nodes": [
          {
              "id": "http://arctos.database.museum/guid/CUMV:Bird:25225",
@@ -24,7 +17,7 @@
                  "id": "NCBITaxon:56350",
                  "label": "Falco sparverius"
              },
-             "date": "1955-07-18",
+             "OBI:0001619": "1955-07-18",
              "location": {
                  "latitude": "44.378414",
                  "longitude": "-98.178441",
@@ -33,7 +26,6 @@
                      "units": "foot"
                  }
              },
-             "source": "http://arctos.database.museum/guid/CUMV:Bird:25225-study"
          },
          {
              "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-1",
