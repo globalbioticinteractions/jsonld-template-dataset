@@ -31,10 +31,6 @@
       "preys_on" : "RO:0002439",
       "is_about" : "IAO:0000136",
       "specimen" : "OBI:0100051",
-      "dataset" : { 
-        "@id": "MI:0875", 
-        "@type": "@id" 
-      },
       "type" : {
          "@id" : "rdf:type",
          "@type" : "@id"
@@ -88,15 +84,11 @@
       "location": "http://schema.org/geo",
       "latitude": {
         "@id": "http://schema.org/latitude",
-        "@type": "xsd:float"
+        "@type": "xsd:decimal"
       },
       "longitude": {
         "@id": "http://schema.org/longitude",
-        "@type": "xsd:float"
-      },
-      "elevation": {
-        "@id": "http://schema.org/elevation",
-        "@type": "xsd:float"
+        "@type": "xsd:decimal"
       }
    }
 }

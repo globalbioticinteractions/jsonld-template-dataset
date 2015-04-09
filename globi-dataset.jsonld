@@ -2,7 +2,7 @@
  "@context": "https://rawgit.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
  "datasets" : {
      "id": "https://rawgit.com/globalbioticinteractions/jsonld-template-dataset/globi-dataset.jsonld",
-     "type": "dataset",
+     "type": "MI:0875",
      "created": "2015-03-16",
      "author": {
          "id": "http://orcid.org/0000-0002-6601-2165",
