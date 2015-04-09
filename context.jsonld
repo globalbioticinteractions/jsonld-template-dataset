@@ -83,7 +83,7 @@
       "description" : "dc:description",
       "subClassOf" : "owl:subClassOf",
       "source" : "dc:source",
-      "keyword" : "dcat:keyword"
+      "keyword" : "dcat:keyword",
 
       "location": "http://schema.org/geo",
       "latitude": {
