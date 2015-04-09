@@ -45,7 +45,7 @@
       },
       "created" : {
          "@id" : "dc:created",
-         "@type" : "xsd:dateTime"
+         "@type" : "xsd:date"
       },
       "homepage" : {
          "@id" : "foaf:homepage",
