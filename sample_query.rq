@@ -2,6 +2,7 @@ PREFIX obo:   <http://purl.obolibrary.org/obo/>
 PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX dc:   <http://purl.org/dc/terms/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX is_about: <http://purl.obolibrary.org/obo/IAO_0000136>
 
 SELECT ?subj ?subjTaxon ?p ?target ?targetTaxon ?dataset ?author ?creationDate ?collLat ?collLng ?collTime
 WHERE { 
@@ -14,7 +15,7 @@ WHERE {
   ?collPlace <http://schema.org/longitude> ?collLng .
   ?subj obo:OBI_0001619 ?collTime .
   ?x rdf:predicate ?p .
-  ?dataset foaf:isAbout ?subj .
+  ?dataset is_about: ?subj .
   ?dataset dc:author ?author .
   ?dataset dc:created ?creationDate .
 }
