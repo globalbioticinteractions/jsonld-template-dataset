@@ -52,7 +52,7 @@
       },
 
       "studies" : "is_about",
-      "nodes" : "foaf:isAbout",
+      "nodes" : "is_about",
 
       "links" : {
          "@id" : "is_about",
