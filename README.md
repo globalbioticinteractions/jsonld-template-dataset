@@ -2,7 +2,7 @@ This repository provides an example on how to make your interaction
 data available through Global Biotic Interactions (GloBI,
 http://globalbioticinteractions.org) using JSON-LD.
 
-If you would like to instead make your data available through simple TSVs, see [globalbioticinteractions/template-dataset](https://github.com/globalbioticinteractions/template-dataset) instead
+If you would like to instead make your data available through simple tab separated values (TSV) files, see [globalbioticinteractions/template-dataset](https://github.com/globalbioticinteractions/template-dataset) instead
 
 If you have comments or questions please [open an issue](https://github.com/globalbioticinteractions/jsonld-template-dataset/issues/new).
 
@@ -14,7 +14,7 @@ If you want to share your own data through GloBI:
 3. Ensure that your README.rd contains a reference to ```http://globalbioticinteractions.org```. 
 4. Edit the name of your repository and description to make it easy for others to understand what your data is about.
 
-After you do this, the data will be available through GloBI within a day or so.
+After you do this, the data will be available through GloBI within a day or so. Note that GloBI is uses [this sparql query](https://github.com/jhpoelen/eol-globi-data/blob/master/eol-globi-data-sources/src/main/resources/org/eol/globi/data/find-jsonld-interactions.rq) to extact information from the repository.
 
 ## Data Format
 
