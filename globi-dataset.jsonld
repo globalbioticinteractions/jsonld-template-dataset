@@ -1,31 +1,24 @@
 {
- "@context": "https://raw.githubusercontent.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
+ "@context": "https://rawgit.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
  "datasets" : {
-     "id": "http://github.com/...",
-     "type": "dataset",
-     "createdDate": "2015-03-16",
+     "id": "https://rawgit.com/globalbioticinteractions/jsonld-template-dataset/globi-dataset.jsonld",
+     "type": "MI:0875",
+     "created": "2015-03-16",
      "keyword" : ["birds", "insects"],
      "author": {
          "id": "http://orcid.org/0000-0002-6601-2165",
          "label": "Chris Mungall"
      },   
 
-     "studies": [
-         {
-             "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-study",
-             "label": "Falco sparverius James River, 3 miles Northeast Huron ",
-             "type": "collection_specimen_study"
-         }
-     ],
      "nodes": [
          {
              "id": "http://arctos.database.museum/guid/CUMV:Bird:25225",
-             "type": "specimen",
+             "type": "OBI:0100051",
              "taxon": {
                  "id": "NCBITaxon:56350",
                  "label": "Falco sparverius"
              },
-             "date": "1955-07-18",
+             "OBI:0001619": "1955-07-18",
              "location": {
                  "latitude": "44.378414",
                  "longitude": "-98.178441",
@@ -33,8 +26,7 @@
                      "value": "1300",
                      "units": "foot"
                  }
-             },
-             "source": "http://arctos.database.museum/guid/CUMV:Bird:25225-study"
+             }
          },
          {
              "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-1",
@@ -46,7 +38,7 @@
          },
          {
              "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-2",
-             "type": "specimen",
+             "type": "OBI:0100051",
              "label": "stomach contents part 2, fledglings",
              "taxon": {
                  "id": "NCBITaxon:8782",
@@ -60,14 +52,32 @@
      ],
      "links": [
          {
-             "subject": "http://arctos.database.museum/guid/CUMV:Bird:25225",
-             "relation": "RO:0002470",
-             "target": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-1"
+             "subject": {
+                "id": "http://arctos.database.museum/guid/CUMV:Bird:25225",
+                "type": "OBI:0100051"
+              },
+             "relation": {
+                "id": "RO:0002470",
+                "label": "eats"
+              },
+             "target": {
+                "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-1",
+                "type": "OBI:0100051"
+              }
          },
          {
-             "subject": "http://arctos.database.museum/guid/CUMV:Bird:25225",
-             "relation": "RO:0002470",
-             "target": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-2"
+             "subject": { 
+                "id": "http://arctos.database.museum/guid/CUMV:Bird:25225",
+                "type": "OBI:0100051"
+              },
+             "relation": {
+                "id": "RO:0002470",
+                "label": "eats"
+              },
+             "target": {
+                "id": "http://arctos.database.museum/guid/CUMV:Bird:25225-UBERON_0000945-2",
+                "type": "OBI:0100051"
+              }
          }
      ]
  }
