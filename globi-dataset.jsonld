@@ -1,7 +1,7 @@
 {
- "@context": "https://rawgit.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
+ "@context": "https://raw.githubusercontent.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
  "datasets" : {
-     "id": "https://rawgit.com/globalbioticinteractions/jsonld-template-dataset/master/globi-dataset.jsonld",
+     "id": "https://raw.githubusercontent.com/globalbioticinteractions/jsonld-template-dataset/master/globi-dataset.jsonld",
      "type": "dataset",
      "created": "2015-03-16",
      "keyword" : ["birds", "insects"],
