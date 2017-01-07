@@ -1,8 +1,9 @@
-[![Build Status](https://travis-ci.org/globalbioticinteractions/jsonld-template-dataset.svg)](https://travis-ci.org/globalbioticinteractions/jsonld-template-dataset) [![DOI](https://zenodo.org/badge/32360002.svg)](https://zenodo.org/badge/latestdoi/32360002) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globalbioticinteractions/jsonld-template-dataset)](http://globalbioticinteractions.org/?accordingTo=globalbioticinteractions/jsonld-template-dataset)
-
 This repository provides an example on how to make your interaction
 data available through Global Biotic Interactions (GloBI,
 http://globalbioticinteractions.org) using JSON-LD.
+
+[![Build Status](https://travis-ci.org/globalbioticinteractions/jsonld-template-dataset.svg)](https://travis-ci.org/globalbioticinteractions/jsonld-template-dataset) [![DOI](https://zenodo.org/badge/32360002.svg)](https://zenodo.org/badge/latestdoi/32360002) [![GloBI](http://api.globalbioticinteractions.org/interaction.svg?accordingTo=globalbioticinteractions/jsonld-template-dataset)](http://globalbioticinteractions.org/?accordingTo=globalbioticinteractions/jsonld-template-dataset)
+
 
 If you would like to instead make your data available through simple tab separated values (TSV) files, see [globalbioticinteractions/template-dataset](https://github.com/globalbioticinteractions/template-dataset) instead
 
