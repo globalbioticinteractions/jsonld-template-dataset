@@ -1,5 +1,6 @@
 {
- "@context": "https://raw.githubusercontent.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
+  "@context": "https://raw.githubusercontent.com/globalbioticinteractions/jsonld-template-dataset/master/context.jsonld",
+  "dcterms:bibliographicCitation": "Chris Mungall. 2015. Example of sharing species interactions data in JSON-LD.",
  "datasets" : {
      "id": "https://raw.githubusercontent.com/globalbioticinteractions/jsonld-template-dataset/master/globi-dataset.jsonld",
      "type": "dataset",
